@@ -104,7 +104,7 @@ filetype plugin on
 filetype on
 set nu
 ""set relativenumber
-colors mustang
+colors Mustang
 
 "map <S-t> :NERDTree
 
