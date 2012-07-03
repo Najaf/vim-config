@@ -185,3 +185,12 @@ nnoremap <Leader>ia :!ino build && ino upload
 
 set listchars=eol:$,trail:.
 nnoremap <Leader>l :set list!
+
+" Jumping tags like a boss
+set tags=./tags,./tmp/tags
+nnoremap <Leader>y :CommandTTag
+
+" rails.vim
+nnoremap <Leader>rt :Rtags
+
+
