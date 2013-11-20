@@ -104,7 +104,6 @@ filetype plugin on
 filetype on
 set nu
 ""set relativenumber
-colors Mustang
 
 "map <S-t> :NERDTree
 
@@ -194,3 +193,5 @@ nnoremap <Leader>y :CommandTTag
 nnoremap <Leader>rt :Rtags
 
 
+colors jellybeans
+set term=screen-256color
